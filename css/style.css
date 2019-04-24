@@ -11,7 +11,7 @@ h2 {
 }
 
 #jumbotron {
-  background-image: url(images/jumbopic.jpg);
+  background-image: url(../images/jumbopic.jpg);
   background-size: cover;
   font-family: "Anton", sans-serif;
   font-family: "Kanit", sans-serif;
