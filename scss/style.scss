@@ -1,25 +1,78 @@
 
-/*variables */
+/* variables */
 
-$wc-color-lgtblue: #5F8FF8;
+$wc-color-drkblue: #032FC4;
+$wc-color-teal: #5FF8C3;
+$wc-color-lgtblue: #00F0FC;
+
+/* body */
+body{
+	background-color: $wc-color-lgtblue;
+	
+}
+/* nav */
+.navbar{
+	&.navbar-light{
+	  .navbar-nav{
+	    .nav-link{
+		   color:$wc-color-lgtblue;
+		   &.active {
+		   	color:$wc-color-drkblue;
+		   }
+	   }
+    }
+  }
+}
 
 /* heading tags */
-h4{
-	color:$wc-color-lgtblue;
+h1, h2, h3, h4, h5, h6{
+	color:$wc-color-drkblue;
+	  font-family: 'Anton', sans-serif;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Questrial', sans-serif;
 }
-h3{
-	color:$wc-color-lgtblue;
-}
-h2{
-	color:$wc-color-lgtblue;
-}
-#jumbotron{
-	background-image: url(../images/jumbopic.jpg);
+
+/* jumbotron */
+.jumbotron{
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	background-image: url(../images/newjumbopic.svg);
 	background-size: cover;
-font-family: 'Anton', sans-serif;
-font-family: 'Kanit', sans-serif;
-font-family: 'Questrial', sans-serif;
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: scroll;
+	background-size: auto;
+    z-index: 0;
+    margin-bottom: 5rem;
+      .container{
+    	 z-index: 1;
+    	 color:black;
+    	 h1{
+    	   color:black;
+    	   font-weight: 800;
+    	   font-size: 10rem;
+    	   line-height: 10rem;
+    	   text-transform: uppercase;
+    	   margin-bottom: 2rem;
+    	 }
+    }
+    &:after{
+    	content:"";
+    	display: block;
+    	position: absolute;
+    	top: calc(100vh-10rem);
+    	width:100%;
+    	height: 10rem;
+    	z-index: 1;
+    	background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,240,252,1) 100%);
+
+    }
 }
+
+/* footer */
 #footer{
-	background-color:#5f8ff8;
+	background-color:$wc-color-drkblue;
 }
