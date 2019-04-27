@@ -1,11 +1,17 @@
+
+/*variables */
+
+$wc-color-lgtblue: #5F8FF8;
+
+/* heading tags */
 h4{
-	color:#5F8FF8;
+	color:$wc-color-lgtblue;
 }
 h3{
-	color:#5F8FF8;
+	color:$wc-color-lgtblue;
 }
 h2{
-	color:#5F8FF8;
+	color:$wc-color-lgtblue;
 }
 #jumbotron{
 	background-image: url(../images/jumbopic.jpg);
