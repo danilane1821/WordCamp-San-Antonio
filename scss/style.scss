@@ -105,10 +105,13 @@ h1, h2, h3, h4, h5, h6{
 .col-speakers{
 	padding-bottom: 3rem;
 	color:black;
+
 	p{
 		padding-right: 2rem;
+
 	
 	}
+	
 	&:before{
 		position:absolute;
 		content: "'";
@@ -121,6 +124,7 @@ h1, h2, h3, h4, h5, h6{
 		z-index: -2;
 		top:-3rem;
 		left:-1rem;
+		
 	}
 }
 
@@ -129,7 +133,7 @@ h1, h2, h3, h4, h5, h6{
 	padding-bottom: 1rem;
 	h3 {
 		padding-left: 2rem;
-		color:$wc-color-drkblue;
+		color:$wc-color-gray;
 	
 	}
 	.list-group{
