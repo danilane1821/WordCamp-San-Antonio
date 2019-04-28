@@ -237,9 +237,34 @@ h1, h2, h3, h4, h5, h6 {
   transform-origin: top;
 }
 
-/* footer */
-#footer {
-  background-color: #032FC4;
+/* schedule */
+.section-schedule {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  background-image: linear-gradient(180deg, #032FC4 0%, #00F0FC 100%);
+}
+.section-schedule .container {
+  position: relative;
+}
+.section-schedule .container h2 {
+  color: white;
+  font-weight: 800;
+  font-size: 8rem;
+  margin-top: 0;
+  margin-bottom: -2rem;
+  text-align: center;
+}
+.section-schedule .container ul.list-group {
+  max-width: 800px;
+  margin: auto;
+}
+.section-schedule .container ul.list-group li.list-group-item {
+  background: #17a2b8;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+.section-schedule .container ul.list-group li.list-group-item h5 {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
